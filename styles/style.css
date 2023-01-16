@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/*---------------
+ Header Styles
+  --------------*/
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  ;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 228px;
+  margin-right: 240px;
+}
+
+.head-title,
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.head-info,
+.detail {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  margin-top: 63px;
+}
+
+.container-detail {
+  text-align: center;
+}
+
+.primary-color {
+  background-color: #FF900E;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  border: none;
+  width: 180px;
+  height: 64px;
+}
+
+.container-detail img {
+  width: 1000px;
+  height: 500px;
+  background: url(group-three-modern-architects.jpg);
+  border-radius: 8px;
+  margin-left: 200px;
+  margin-right: 240px;
+  margin-bottom: 20px;
+}
+
+.detail {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/*---------------------
+ main content style
+ -------------------- */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 240px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.team-detail {
+  margin-left: 20px;
+  margin-top: 300px;
+}
+
+h3 {
+  font-weight: 468px;
+ 
+  color: #424242;
+}
+p {
+  color: #424242;
+}
+#rakib{
+  color: #131313;
+}
+#saikat{
+  color: #FF900E;
+}
+
+/* ----------------
+Sub-Content Styles 
+--------------------*/
+.sub-content{
+  display: flex;
+  margin-top: 50px;
+}
+.architect img{
+  width: 708px;
+height: 982px;
+}
+.ishan{
+  width: 342px;
+height: 200px;
+font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+background-color: #FF900E;
+border: none;
+}
+#omor{
+  font-size: 25px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.title-bar, .p-detail{
+  background-color: 
+  #FFFFFF;
+}
+.icons{
+  display: grid;
+  grid-template-columns:repeat(1, 1fr);
+}
